@@ -1,0 +1,20 @@
+# Python.
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+dist/
+
+# Secrets.
+.env
+
+# Benchmark outputs.
+problem_set_v*.jsonl
+responses/
+results.json
+report.md
+
+# Editor and OS files.
+.vscode/
+.DS_Store
+Thumbs.db
